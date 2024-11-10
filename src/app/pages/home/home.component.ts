@@ -10,6 +10,7 @@ import {
   WritableSignal,
 } from '@angular/core';
 import { LikeService } from '../../services/like.service';
+import { LoggerService } from '../../services/logger.service';
 
 @Component({
   selector: 'app-home',
@@ -20,9 +21,13 @@ import { LikeService } from '../../services/like.service';
 })
 export class HomeComponent  {
 
-  likeService = inject(LikeService)
+  private  likeService = inject(LikeService)
+  
+  private loggerService = inject(LoggerService)
 
   likes = this.likeService.getLikes()
+
+  logs = this.loggerService.getLogs()
   
   
   clickHandler() {
