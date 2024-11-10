@@ -2,7 +2,7 @@
   <header class="flex justify-center">
     <p class="p-4 font-semibold text-xl">Angular Signals (linkedIn Post)</p>
   </header>
-  <main class="flex justify-center">
+  <main class="flex flex-col items-center">
     <div class="p-5">
       <div
         class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow shadow-angular"
@@ -21,6 +21,23 @@
         </p>
        
       </div>
+    </div>
+    <div>
+      <div
+      class="max-w-lg p-6 bg-white border border-gray-200 rounded-lg shadow h-[500px]"
+    >
+  
+        <h5
+          class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 "
+        >
+          Logs ✍️ <span>{{likes()}}</span>
+        </h5>
+        <h6 class="mb-3 font-normal text-gray-500">This card component is powered by effects & writable signals</h6>
+      <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">
+       This is a simple card component. It's powered by a <b>writable signal</b>
+      </p>
+     
+    </div>
     </div>
   </main>
 </div>
