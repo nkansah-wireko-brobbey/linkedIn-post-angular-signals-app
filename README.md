@@ -1,27 +1,26 @@
-# LinkedInPostAngularSignalsApp
+# Angular Logs Project with Signals & Effects
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
+This project is a practical implementation of **Angular signals and effects** to dynamically display and manage log entries. Created as a companion to my LinkedIn posts, this project is designed to support developers aiming to understand Angular's reactive signals and effects.
 
-## Development server
+## Project Overview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The goal of this project is to:
+- Provide hands-on examples of **writable signals** and **effects** in Angular.
+- Serve as a practical learning resource for anyone interested in exploring Angular's new reactive approach.
 
-## Code scaffolding
+The application features a logging component where log entries appear interactively, each with a description and timestamp. This project showcases how signals and effects work together to build dynamic, reactive components in Angular.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Screenshots
 
-## Build
+**Logs & Likes View**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![Logs view](./public/UI.png)
 
-## Running unit tests
+**Dynamic Signal Updates**
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![Dynamic updates](./public/Logging.png)
 
-## Running end-to-end tests
+## Key Features
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- **Writable Signals**: Demonstrates the use of writable signals for managing log data.
+- **Angular Effects**: Implements effects to track updates to log entries.
