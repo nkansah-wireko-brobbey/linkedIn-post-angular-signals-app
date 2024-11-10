@@ -2,3 +2,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* In your global CSS or component CSS file */
+@layer utilities {
+    .shadow-angular {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: box-shadow 0.3s ease, transform 0.2s ease;
+      @apply hover:cursor-pointer
+    }
+  
+    .shadow-angular:active {
+      box-shadow: 0 4px 20px 5px rgba(0, 0, 0, 0.1),
+                  0px 0 2px 2px #820df041,
+                  0px 0 2px 2px #f60a4d3d;
+      transform: scale(0.98); /* Slight press effect */
+
+    }
+  }
