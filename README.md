@@ -2,6 +2,10 @@
 
 This project is a practical implementation of **Angular signals and effects** to dynamically display and manage log entries. Created as a companion to my LinkedIn posts, this project is designed to support developers aiming to understand Angular's reactive signals and effects.
 
+#
+[Live Link To The App](https://linked-in-post-angular-signals-app.vercel.app/)
+
+
 ## Project Overview
 
 The goal of this project is to:
