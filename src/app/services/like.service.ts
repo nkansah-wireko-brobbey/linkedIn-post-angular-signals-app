@@ -28,7 +28,4 @@ export class LikeService {
     return this.likes.asReadonly()
   }
 
-  likeEffect = effect(()=>{
-    console.log(`Like clicked ${this.likes()}`)
-  })
 }
